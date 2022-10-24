@@ -1,0 +1,29 @@
+{
+  "name": "expresspedidosgetepost",
+  "version": "1.0.0",
+  "description": "Testar pedidos Get e Post no Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gil-cunha/ExpressPedidosGetEPost.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "GET",
+    "POST"
+  ],
+  "author": "Gil Cunha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gil-cunha/ExpressPedidosGetEPost/issues"
+  },
+  "homepage": "https://github.com/gil-cunha/ExpressPedidosGetEPost#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express.js": "^1.0.0"
+  }
+}
