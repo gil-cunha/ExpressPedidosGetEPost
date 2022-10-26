@@ -5,6 +5,8 @@ const port = process.env.port || 8080;
 app.listen(port);
 console.log('Server started! At http://localhost:' + port);
 
+app.use(express.static(__dirname + '/views'));
+
 app.get('/api/users', function(req, res){
     const user_id = req.param('id');
     const token = req.param('token');
